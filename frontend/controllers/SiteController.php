@@ -81,6 +81,21 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionProducts()
+    {
+
+  $this->layout = 'template';
+
+        return $this->render('products');
+    }
+
+    public function actionCompany()
+    {
+
+  $this->layout = 'template';
+        return $this->render('company');
+    }
+
     /**
      * Logs in a user.
      *

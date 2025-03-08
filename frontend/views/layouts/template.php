@@ -1,3 +1,9 @@
+<?php 
+
+
+use yii\helpers\Url;
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -290,18 +296,13 @@
         </ul>
 	</li>-->
     <li class="nav-item">
-		<a href="company.html" class="nav-link">Company</a>
+	<a href="<?= Url::to(['site/company'])?>" class="nav-link">Company</a>
     </li>
     <li class="nav-item">
-        <a href="products.html" class="nav-link">Products</a>
-    </li>
-    <li class="nav-item">
-        <a href="#" class="nav-link">Indicator for MetaTrader 4/5</a>
+        <a href="<?= Url::to(['site/products'])?>" class="nav-link">Products</a>
     </li>
 </ul>
 
-
-				 
             </div>
             <div class="offcanvas-header border-top border-light">
                 <a href="#!" class="btn btn-primary w-100" target="_blank" rel="noopener">
