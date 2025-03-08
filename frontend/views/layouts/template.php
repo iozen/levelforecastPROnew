@@ -1,8 +1,5 @@
 <?php 
-
-
 use yii\helpers\Url;
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -165,7 +162,7 @@ use yii\helpers\Url;
 
 <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
     <div class="container px-3">
-        <a href="/" class="navbar-brand pe-3">
+	<a href="<?= Url::to(['site/index'])?>" class="navbar-brand pe-3">
             <img src="template/assets/img/logo.svg" width="240px" >
             
         </a>
@@ -301,6 +298,12 @@ use yii\helpers\Url;
     <li class="nav-item">
         <a href="<?= Url::to(['site/products'])?>" class="nav-link">Products</a>
     </li>
+
+    <li class="nav-item">
+        <a href="<?= Url::to(['site/indicator'])?>" class="nav-link">Indicator fro Metatradier 4/5</a>
+    </li>
+
+
 </ul>
 
             </div>

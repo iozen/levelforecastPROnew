@@ -6,9 +6,9 @@
 
             <!-- Cursor parallax -->
             <div class="col-md-7 order-md-2 mb-3 mb-sm-2 mb-md-0">
-                <div class="parallax" style="max-width: 500px;">
+                <div class="parallax" style="max-width: 700px;">
                     <div class="parallax-layer" data-depth="0.1">
-						<img src="template/assets/img/prod_main.webp" alt="Phone">
+						<img src="template/assets/img/mt45_2.png" alt="Phone">
                     </div>
 					<!--
                     <div class="parallax-layer" data-depth="0.2">
@@ -17,11 +17,14 @@
 					-->
                 </div>
             </div>
+
             <!-- Text + button -->
             <div class="col-md-5 order-md-1">
 				<h1 class="display-4 mb-ms-4" style="font-size:36px;">Products
 						Professional software for trading & analytics</h1>
                 <p class="fs-xl pb-2 mb-4 mb-xl-5" style="max-width: 450px;">LevelForecast indicator for MetaTrader 4/5</p>
+                
+                
             </div>
         </div>
     </div>
@@ -34,13 +37,31 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 py-5 mb-2 mb-sm-3">
 
         <!-- Item -->
-        
+        <div class="col pt-2 pt-md-0">
+            <div class="text-center px-xl-4">
+                <img src="template/assets/img/landing/startup/icons/riding-scooter.svg" class="d-inline-block mb-4" width="70" alt="Icon">
+                <h3 class="h4 mb-2">LevelForecast Analysis</h3>
+                <p class="fs-lg mb-0">The LevelForecast system offers powerful tools for market analysis, including entry point searches, trend evaluations, and price movement modeling. It helps traders identify support and resistance levels, calculate stop-loss/take-profit targets, and analyze market consolidation.</p>
+            </div>
+        </div>
 
         <!-- Item -->
-        
+        <div class="col pt-2 pt-md-0">
+            <div class="text-center px-xl-4">
+                <img src="template/assets/img/landing/startup/icons/diamond.svg" class="d-inline-block mb-4" width="70" alt="Icon">
+                <h3 class="h4 mb-2">Automation & Visualization</h3>
+                <p class="fs-lg mb-0">LevelForecast operates automatically across various markets and timeframes. It calculates and displays price levels, support/resistance zones, and projected price movements directly on trading charts, enhancing decision-making efficiency.</p>
+            </div>
+        </div>
 
         <!-- Item -->
-        
+        <div class="col pt-2 pt-md-0">
+            <div class="text-center px-xl-4">
+                <img src="template/assets/img/landing/startup/icons/planet.svg" class="d-inline-block mb-4" width="70" alt="Icon">
+                <h3 class="h4 mb-2">Advanced Trading Insights</h3>
+                <p class="fs-lg mb-0">With its unique modeling capabilities, LevelForecast serves as a solid foundation for building effective trading systems. It simplifies technical analysis by providing clear, data-driven projections to optimize trading strategies.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -161,59 +182,153 @@ Supported Assets:  Forex, Metals, Energy, Crypto, Indices, Stocks</p>
 </section>
 
 
-<!-- Mobile App CTA -->
-<section class="bg-secondary overflow-hidden py-2 py-sm-3 py-md-4 py-lg-5">
-    <div class="container py-5 pb-lg-4">
-        <div class="row">
-
-            <!-- Cursor parallax -->
-            <div class="col-md-7 offset-xl-1 order-md-2">
-                <div class="parallax" style="max-width: 746px;">
-                    <div class="parallax-layer" data-depth="0.1">
-                        <img src="template/assets/img/landing/app-showcase-2/hero/layer01.png" alt="Phone">
-                    </div>
-<!--
-                    <div class="parallax-layer" data-depth="0.3">
-                        <img src="template/assets/img/landing/startup/mobile-app/02.png" alt="Phone">
-                    </div>
-                    <div class="parallax-layer" data-depth="-0.1">
-                        <img src="template/assets/img/landing/startup/mobile-app/03.png" alt="Phone">
-                    </div>
-                    <div class="parallax-layer" data-depth="0.2">
-                        <img src="template/assets/img/landing/startup/mobile-app/04.png" alt="Phone">
-                    </div>
--->
-                </div>
-            </div>
-
-            <!-- Text + Action buttons -->
-            <div class="col-md-5 col-xl-4 order-md-1 text-center text-md-start pt-lg-3">
-                <h2 class="display-5 mb-4">LevelForecastPro.com</h2>
-                <p class="fs-xl pb-2 mb-4 mb-xl-5">AI-powered:  Daily Forecast & Market Analysis & Price Predictions
-				<ul>
-
-
-					<li>Daily Forecast Updates:  Every 30 minutes</li>
-					<li>Trend Direction:  BUY/SELL/FLAT</li>
-					<li>Strength of Trend Direction:  Presented in percentage format</li>
-					<li>Bearish Strength:  Presented in percentage format</li>
-					<li>Bullish Strength:  Presented in percentage format</li>
-					<li>Sideways Strength:  Presented in percentage format</li>
-					<li>Support and  Resistance (S&R) Levels</li>
-					<li>Nearest Time Level</li>
-					<li>Time in Charts:  GMT + 0</li>
-					<li>Disclaimer: This information is provided solely for informational purposes.</li>
 
 
 
 
 
-				</ul></p>
-                
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

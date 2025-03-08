@@ -89,6 +89,13 @@ class SiteController extends Controller
         return $this->render('products');
     }
 
+    public function actionIndicator()
+    {
+
+  $this->layout = 'template';
+
+        return $this->render('indicator');
+    }
     public function actionCompany()
     {
 
