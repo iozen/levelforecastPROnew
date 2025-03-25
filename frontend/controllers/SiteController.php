@@ -149,6 +149,8 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
+
+  $this->layout = 'template';
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
@@ -204,6 +206,11 @@ class SiteController extends Controller
      */
     public function actionRequestPasswordReset()
     {
+
+
+  $this->layout = 'template';
+
+
         $model = new PasswordResetRequestForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail()) {
@@ -255,6 +262,11 @@ class SiteController extends Controller
      */
     public function actionVerifyEmail($token)
     {
+
+
+
+  $this->layout = 'template';
+
         try {
             $model = new VerifyEmailForm($token);
         } catch (InvalidArgumentException $e) {
@@ -276,6 +288,11 @@ class SiteController extends Controller
      */
     public function actionResendVerificationEmail()
     {
+
+  $this->layout = 'template';
+
+
+
         $model = new ResendVerificationEmailForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail()) {

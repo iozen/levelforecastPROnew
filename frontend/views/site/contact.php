@@ -12,14 +12,22 @@ $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
+<section class="position-relative h-100 pt-5 pb-4">
+
+    <!-- Sign up form -->
+    <div class="container d-flex flex-wrap justify-content-center justify-content-xl-start h-100 pt-5">
+        <div class="w-100 align-self-end pt-1 pt-md-4 pb-4" style="max-width: 526px;">
+			<h1 class="text-center text-xl-start">
+<?= Html::encode($this->title) ?>
+</h1>
+			<p class="text-center text-xl-start pb-3 mb-3">
         If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-    </p>
+
+
 
     <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-12">
             <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
                 <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
@@ -30,9 +38,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
 
-                <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
-                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                ]) ?>
 
                 <div class="form-group">
                     <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
@@ -43,3 +48,6 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
 
 </div>
+</div>
+</div>
+</section>
