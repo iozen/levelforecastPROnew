@@ -1,4 +1,6 @@
-
+<?php 
+use yii\helpers\Url;
+?>
 <div style="padding-top:75px;">
 <section class="overflow-hidden pt-2 pt-md-4 pt-lg-5">
     <div class="container pt-1 pt-sm-0">
@@ -102,7 +104,7 @@
 
 
 
-        <div class="position-relative bg-dark rounded-3 overflow-hidden px-5" style="padding-top: 9.7%;">
+        <div class="position-relative  overflow-hidden px-5" style="padding-top: 9.7%;">
             
             
         </div>
@@ -111,8 +113,8 @@
 
 
 <!-- Steps (How it works) -->
-<section class="container pb-md-3 pb-lg-4 pb-xl-0 pt-sm-2 pt-md-3 pt-lg-5 mt-2 mt-md-3">
-    <h2 class="display-5 text-center pt-5 pb-3 pb-md-4 pb-lg-5 mb-xl-4">LevelForecast indicator </h2>
+<section class="container pb-md-3 pb-lg-4 pb-xl-0 pt-sm-2 mt-2 mt-md-3">
+    <h2 class="display-5 text-center  pb-3 pb-md-4 pb-lg-5 mb-xl-4">LevelForecast indicator </h2>
 
     <!-- Step -->
     <div class="row align-items-center pb-5 mb-2 mb-md-3 mb-lg-4 mb-xl-5">
@@ -131,6 +133,10 @@
 Software updates and new versions
 
 Supported Assets:  Forex, Metals, Energy, Crypto, Indices, Stocks</p>
+
+<a href="<?= Url::to(['site/signup'])?>" class="btn btn-lg btn-primary shadow-primary w-100 w-sm-auto" style="margin-top:30px;">
+FREE TRIAL
+</a>
             </div>
         </div>
     </div>
@@ -152,6 +158,10 @@ Supported Assets:  Forex, Metals, Energy, Crypto, Indices, Stocks</p>
 Software updates and new versions
 
 Supported Assets:  Forex, Metals, Energy, Crypto, Indices, Stocks</p>
+
+<a href="<?= Url::to(['site/signup'])?>" class="btn btn-lg btn-primary shadow-primary w-100 w-sm-auto" style="margin-top:30px;">
+FREE TRIAL
+</a>
             </div>
         </div>
     </div>

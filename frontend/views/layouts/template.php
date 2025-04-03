@@ -292,16 +292,22 @@ use yii\helpers\Url;
             <li><a href="/account/signup" class="dropdown-item">Sign Up</a></li>
         </ul>
 	</li>-->
+
     <li class="nav-item">
-	<a href="<?= Url::to(['site/company'])?>" class="nav-link">Company</a>
+	<a href="<?= Url::to(['site/index'])?>" class="nav-link">WEB Version: <span style="color:#37C174;"> &nbsp;FREE</span></a>
+    </li>
+
+    <li class="nav-item">
+        <a href="<?= Url::to(['site/indicator'])?>" class="nav-link">Indicator fro Metatradier 4/5</a>
     </li>
     <li class="nav-item">
         <a href="<?= Url::to(['site/products'])?>" class="nav-link">Products</a>
     </li>
 
     <li class="nav-item">
-        <a href="<?= Url::to(['site/indicator'])?>" class="nav-link">Indicator fro Metatradier 4/5</a>
+	<a href="<?= Url::to(['site/company'])?>" class="nav-link">Company</a>
     </li>
+
 
 
 </ul>
