@@ -159,7 +159,8 @@ use yii\helpers\Url;
 		<!--@RenderBody()-->
 		
 
-<header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
+<!--<header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">-->
+<header class="header navbar navbar-expand-lg  position-absolute navbar-sticky">
 
     <div class="container px-3">
 	<a href="<?= Url::to(['site/index'])?>" class="navbar-brand pe-3">
@@ -320,7 +321,7 @@ use yii\helpers\Url;
                 </a>
             </div>
         </div>
-        <div class="pe-lg-1 ms-auto me-4" data-bs-theme="dark">
+        <div class="pe-lg-1 ms-auto me-4" data-bs-theme="light">
             <div class="form-check form-switch mode-switch" data-bs-toggle="mode">
                 <input type="checkbox" class="form-check-input" id="theme-mode">
                 <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>

@@ -84,7 +84,7 @@ class SiteController extends Controller
     public function actionProducts()
     {
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
         return $this->render('products');
     }
@@ -92,7 +92,7 @@ class SiteController extends Controller
     public function actionIndicator()
     {
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
         return $this->render('indicator');
     }
@@ -111,7 +111,7 @@ class SiteController extends Controller
     public function actionLogin()
     {
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
 
         if (!Yii::$app->user->isGuest) {
@@ -150,7 +150,7 @@ class SiteController extends Controller
     public function actionContact()
     {
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
@@ -186,7 +186,7 @@ class SiteController extends Controller
     {
 
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post()) && $model->signup()) {
@@ -208,7 +208,7 @@ class SiteController extends Controller
     {
 
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
 
         $model = new PasswordResetRequestForm();
@@ -289,7 +289,7 @@ class SiteController extends Controller
     public function actionResendVerificationEmail()
     {
 
-  $this->layout = 'template';
+  $this->layout = 'template_light';
 
 
 
